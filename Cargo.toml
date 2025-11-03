@@ -1,0 +1,11 @@
+# walmq/Cargo.toml
+[package]
+name = "walmq"
+version = "0.0.1"
+edition = "2021"
+license = "Apache-2.0 OR MIT"
+description = "WAL-based embedded message queue for local and edge applications"
+repository = "https://github.com/ArcellaTeam/walmq/"
+
+[dependencies]
+ministore = "0.0.1"
